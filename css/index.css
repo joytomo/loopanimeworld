@@ -1,5 +1,8 @@
 html {
-  overflow:auto;
+  overflow-x: hidden;
+}
+
+body {
 }
 
 .slide {
