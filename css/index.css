@@ -1,0 +1,38 @@
+html {
+  overflow:auto;
+}
+
+.slide {
+  display: inline;
+}
+
+.slide > img {
+  width: 50vw;
+  height: 30vw;
+  position: absolute;
+}
+
+#s0.slide > img {
+  margin-left: 50vw;
+}
+
+#s1.slide > img {
+  margin-left: 0vw;
+}
+
+#s2.slide > img {
+  margin-left: -50vw;
+}
+
+
+#s3.slide > img {
+  margin-left: -100vw;
+}
+
+#s4.slide > img {
+  margin-left: -150vw;
+}
+
+#s5.slide > img {
+  margin-left: -200vw;
+}
