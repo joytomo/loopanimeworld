@@ -67,3 +67,8 @@ img.img-responsive {
   margin-top: -0.2vmax;
   z-index: -1;
 }
+
+.artists > div > a {
+  font-weight: bold;
+  font-size: 1.2vmax;
+}
