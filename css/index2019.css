@@ -1,0 +1,63 @@
+html {
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+img.img-responsive {
+  width: 100%;
+}
+
+.description {
+  color: #45484d;
+  background: white;
+}
+
+.slide {
+  display: inline;
+}
+
+.slide > img {
+  width: 50vmax;
+  height: 30vmax;
+  position: absolute;
+}
+
+#sl0.slide > img { margin-left: 50vmax; }
+#sl1.slide > img { margin-left: 0; }
+#sl2.slide > img { margin-left: -50vmax; }
+#sl3.slide > img { margin-left: -100vmax; }
+#sl4.slide > img { margin-left: -150vmax; }
+/*
+ * #sl5.slide > img { margin-left: -200vw; }
+ */
+
+#sr0.slide > img { margin-left: 0; }
+#sr1.slide > img { margin-left: 50vmax; }
+#sr2.slide > img { margin-left: 100vmax; }
+#sr3.slide > img { margin-left: 150vmax; }
+#sr4.slide > img { margin-left: 200vmax; }
+/*
+ * #sr5.slide > img { margin-left: 250vw; }
+ */
+
+
+.about-box {
+  font-size: 1.5vmax;
+}
+
+.about-title {
+  text-align: right;
+  font-weight: bold;
+  padding: 0.5vmin 0.5vmin;
+  margin-top: -0.2vmax;
+  z-index: -1;
+}
